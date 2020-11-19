@@ -1,0 +1,1 @@
+`LVEF%: [SV/EDV] x 100` `is a percent`
