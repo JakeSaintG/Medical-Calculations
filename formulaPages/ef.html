@@ -9,12 +9,18 @@
     <title>Ejection Fraction</title>
 </head>
 <body>
-    <div class="submission">
-        <label for="itime">Stroke Volume</label>
-        <input type="text" name="itime" id="itime" placeholder="iTime" size=30px maxlength="30" class="box">
-    </div>
-    <div class="submission">
-        <input type="text" name="rr" id="rr" placeholder="RR" size=30px maxlength="30" class="box">
-    </div>
+    <h1>Ejection Fraction Calculator</h1>
+    <p>Enter the values below to calculate the EF for your patient.</p>
+    <main>
+        <div class="submission">
+            <label for="itime">Stroke Volume</label>
+            <input type="sv" name="sv" id="itime" placeholder="SV" size=30px maxlength="30" class="box">
+        </div>
+        <div class="submission">
+            <label for="itime">End-Diastolic Volume</label>
+            <input type="text" name="edv" id="edv" placeholder="EDV" size=30px maxlength="30" class="box">
+        </div>
+        <input type="submit" value="Submit" class="submit" id="submit" onclick="">
+    </main>
 </body>
 </html>
